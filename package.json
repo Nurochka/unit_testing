@@ -1,0 +1,29 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "simple unit testing project using mocha",
+  "main": "index.js",
+  "nyc": {
+    "reporter": "html"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "mocha",
+    "unit",
+    "testing"
+  ],
+  "author": "hanna_ivanova",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.2.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {}
+  }
